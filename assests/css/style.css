@@ -6,7 +6,7 @@
 }
 body {
     color: #f7cf07;
-    background-color: #000;
+    background: url("/assests/img/background.jpg");
 }
 /* Header & navbar */
 .header {
@@ -45,9 +45,10 @@ body {
 }
 /* Background main */
 .bg-main {
-    position: relative;
-    background: url("anas-alshanti-feXpdV001o4-unsplash.jpg") center/cover no-repeat;
+    min-height: 100vh;
+    background: url("../img/background.jpg") center / cover no-repeat;
 }
+
 .bg-main::before {
     content: "";
     position: absolute;
